@@ -1,0 +1,42 @@
+# Dependencies
+**/node_modules/
+
+# Build outputs
+backend/dist/
+frontend/dist/
+**/dist/
+**/.vite/
+**/coverage/
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Local credentials and secrets
+aimarketer-965f7-7d2277b816f3.json
+aimarketer-965f7-firebase-adminsdk-fbsvc-8e8c5abd2f.json
+**/service-account*.json
+**/*firebase-adminsdk*.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
